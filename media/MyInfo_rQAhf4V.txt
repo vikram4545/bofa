@@ -1,0 +1,25 @@
+Btech at JNTUK from 2004-08  
+
+Graduated date : may/10/2008
+
+Visa when entered USA: H1B
+
+US enter date: Nov 1st, 2011 5years
+
+H1B valid Till: sep/10/2017
+ 
+present location :Dallas
+Health Care
+Banking
+ecommerce
+It
+As a team we developed and implemented a banking web app to store and fin
+ancially service bank clients. Python was used as the core backend langua
+ge along with its feature-rich web framework Django. I was tasked with im
+plementing an e-verification and SMS notification service that would allo
+w for more security and user authentication. Stacked HTML, JavaScript, 
+JQuery, and AngularJS to design UI and easily utilize Django's templat
+ing system. We also probed the possibility of Cassandra implementation 
+as backend database, but instead chose MongoDB due to its light-weight 
+and performance. I also made significant use of selenium for unit testing
+ and test cases.

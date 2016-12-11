@@ -1,0 +1,7 @@
+{% include 'base.html' %}
+{{holder.balance}}
+
+<form method="post" action="">
+{{form.as_p}}{%csrf_token%}
+<input type="submit">
+</form>

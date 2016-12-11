@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transaction Bill</title>
+</head>
+<body>
+
+<h2>BOLO Ticket</h2>
+
+<h1  id="o" style="color:red; "> <l style="background-color:yellow">DO NOT REFRESH</l> THE PAGE TO STOP DUAL SUBMISSION</h1>
+AccountNumber({{holder.number}})<br>
+Name({{holder.name}})<br>
+AvailableBalance({{holder.balance}})<br><br><br>
+
+you deposited::${{holder.deposite}}<br><br>
+you withdrawed::${{holder.withdraw}}<br><br>
+<div style="text-align:center;">
+ <button id="j" onclick="myfunction()">print</button>
+<script>
+function myfunction(){
+document.getElementById("o").style.display="none";
+
+document.getElementById("j").style.display="none";
+window.print()
+}
+</script>
+</div>
+
+{% for i in number1%}
+{% if i.anumber == h%}
+<a href="/bofa/transactions/{{i.id}}/" id="demo" >Transactions</a>
+{% endif %}
+{% endfor %}
+{{employer.name1}}
+
+</body>
+</html>
